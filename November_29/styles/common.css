@@ -1,0 +1,14 @@
+.search_group {
+    display: flex;
+    border: 2px solid;
+    padding: 2%;
+    margin: 30px auto;
+    width: 50%;
+    align-items: center;
+}
+
+#button {
+    background-color: red;
+    color: yellow;
+    border: none;
+}

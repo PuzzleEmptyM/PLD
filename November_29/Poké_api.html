@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/header.css"/>
+        <link rel="stylesheet" href="styles/common.css"/>
+        <link rel="stylesheet" href="styles/footer.css"/>
+        <script src="interact.js"></script>
+        <title>Pokêmon button</title>
+        <div>
+            <h1>
+                <header>
+                    <b>POKé SEARCH</b>
+                </header>
+            </h1>
+        </div>
+    </head>
+
+    <body>
+        <p>Type a Pokémon in the search bar below,
+        then hit 'I choose you!' to view an image of that Pokémon.</p>
+        
+        <div class="search_group">
+            <form id="inputBox">
+                <input type="text" id="pokemonInput">
+                <input type="button" id="button" value="I choose you!" onclick="fetchPokemon()"/>
+            </form>
+        </div>
+        <div width=100px id="pokemonImageContainer"></div>
+
+        <footer><h6>coprihgt 20233 pokiemon<br>all rightst reserbfved</h6></footer>
+    </body>
+</html>
+
